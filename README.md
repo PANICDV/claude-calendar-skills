@@ -179,4 +179,4 @@ data. If it is missing, that test is skipped with a notice.
 
 ## Licencia / License
 
-[MIT](LICENSE) © 2026 Lemur
+[MIT](LICENSE) © 2026 Luis Camacho Urbina
