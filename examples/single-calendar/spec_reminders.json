@@ -1,0 +1,50 @@
+{
+  "lang": "en",
+  "timezone": "America/Bogota",
+  "calendar_name": "🔔 Reminders",
+  "output": "examples/single-calendar/reminders.ics",
+  "events": [
+    {
+      "title": "🏠 Pay rent",
+      "date": "2026-11-01",
+      "repeat": {
+        "freq": "MONTHLY",
+        "bymonthday": 1
+      }
+    },
+    {
+      "title": "🔔 Tomorrow: pay rent",
+      "date": "2026-11-30",
+      "repeat": {
+        "freq": "MONTHLY",
+        "bymonthday": -1
+      }
+    },
+    {
+      "title": "💡 Pay electricity bill",
+      "date": "2026-11-05",
+      "repeat": {
+        "freq": "MONTHLY",
+        "bymonthday": 5
+      }
+    },
+    {
+      "title": "🧊 Clean the fridge",
+      "start": "2026-11-07T15:00",
+      "end": "2026-11-07T15:45",
+      "repeat": {
+        "freq": "DAILY",
+        "interval": 30
+      },
+      "allow_overlap": true
+    },
+    {
+      "title": "🚰 Change water filter",
+      "date": "2026-11-14",
+      "repeat": {
+        "freq": "DAILY",
+        "interval": 90
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "lang": "en",
+  "output_dir": "examples/split-existing/out",
+  "default": "routine",
+  "sections": [
+    {
+      "id": "masters",
+      "name": "🎓 Master's",
+      "color": "#D50000",
+      "color_name": "Tomato",
+      "emojis": [
+        "🎓"
+      ]
+    },
+    {
+      "id": "work",
+      "name": "💼 Work",
+      "color": "#3F51B5",
+      "color_name": "Blueberry",
+      "emojis": [
+        "💼",
+        "🚌"
+      ]
+    },
+    {
+      "id": "errands",
+      "name": "🏦 Errands",
+      "color": "#F4511E",
+      "color_name": "Tangerine",
+      "emojis": [
+        "🏦"
+      ]
+    },
+    {
+      "id": "organization",
+      "name": "🗂️ Organization",
+      "color": "#039BE5",
+      "color_name": "Peacock",
+      "emojis": [
+        "📋",
+        "🗂"
+      ]
+    },
+    {
+      "id": "routine",
+      "name": "🏡 Routine & home",
+      "color": "#33B679",
+      "color_name": "Sage",
+      "emojis": []
+    },
+    {
+      "id": "flexible",
+      "name": "🔄 Flexible slots",
+      "color": "#616161",
+      "color_name": "Graphite",
+      "emojis": [
+        "🔄"
+      ]
+    }
+  ]
+}

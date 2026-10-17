@@ -1,0 +1,251 @@
+{
+  "lang": "en",
+  "timezone": "America/Bogota",
+  "calendar_name": "Plan Nov 2-8",
+  "output": "examples/single-calendar/plan_nov_2-8.ics",
+  "range_end": "2026-11-08",
+  "events": [
+    {
+      "title": "😴 Sleep",
+      "start": "2026-11-01T23:00",
+      "end": "2026-11-02T07:00",
+      "repeat": {
+        "freq": "DAILY",
+        "until": "2026-11-07"
+      }
+    },
+    {
+      "title": "🍳 Breakfast & get ready",
+      "start": "2026-11-02T07:00",
+      "end": "2026-11-02T07:45",
+      "repeat": {
+        "freq": "WEEKLY",
+        "byday": [
+          "MO",
+          "TU",
+          "WE",
+          "TH",
+          "FR"
+        ],
+        "until": "2026-11-08"
+      }
+    },
+    {
+      "title": "🍽️ Lunch",
+      "start": "2026-11-02T13:00",
+      "end": "2026-11-02T14:00",
+      "repeat": {
+        "freq": "WEEKLY",
+        "byday": [
+          "MO",
+          "TU",
+          "WE",
+          "TH",
+          "FR"
+        ],
+        "until": "2026-11-08"
+      }
+    },
+    {
+      "title": "🏃 Gym",
+      "start": "2026-11-02T18:45",
+      "end": "2026-11-02T19:30"
+    },
+    {
+      "title": "🍽️ Dinner",
+      "start": "2026-11-02T19:30",
+      "end": "2026-11-02T20:15"
+    },
+    {
+      "title": "🍽️ Dinner",
+      "start": "2026-11-03T18:45",
+      "end": "2026-11-03T19:25",
+      "repeat": {
+        "freq": "WEEKLY",
+        "byday": [
+          "TU",
+          "WE",
+          "TH"
+        ],
+        "until": "2026-11-08"
+      }
+    },
+    {
+      "title": "🏃 Morning run",
+      "start": "2026-11-07T08:00",
+      "end": "2026-11-07T08:45"
+    },
+    {
+      "title": "🍳 Breakfast",
+      "start": "2026-11-07T08:45",
+      "end": "2026-11-07T09:15"
+    },
+    {
+      "title": "🧹 House cleaning",
+      "start": "2026-11-07T14:00",
+      "end": "2026-11-07T15:00"
+    },
+    {
+      "title": "🚌 Commute to office",
+      "start": "2026-11-02T08:15",
+      "end": "2026-11-02T09:00",
+      "repeat": {
+        "freq": "WEEKLY",
+        "byday": [
+          "MO",
+          "TU",
+          "WE",
+          "TH",
+          "FR"
+        ],
+        "until": "2026-11-08"
+      }
+    },
+    {
+      "title": "💼 Work",
+      "start": "2026-11-02T09:00",
+      "end": "2026-11-02T13:00",
+      "repeat": {
+        "freq": "WEEKLY",
+        "byday": [
+          "MO",
+          "TU",
+          "WE",
+          "TH",
+          "FR"
+        ],
+        "until": "2026-11-08"
+      }
+    },
+    {
+      "title": "💼 Work",
+      "start": "2026-11-02T14:00",
+      "end": "2026-11-02T18:00",
+      "repeat": {
+        "freq": "WEEKLY",
+        "byday": [
+          "MO",
+          "TU",
+          "WE",
+          "TH"
+        ],
+        "until": "2026-11-08"
+      }
+    },
+    {
+      "title": "💼 Work (short Friday)",
+      "start": "2026-11-06T14:00",
+      "end": "2026-11-06T17:30"
+    },
+    {
+      "title": "🚌 Commute home",
+      "start": "2026-11-02T18:00",
+      "end": "2026-11-02T18:45",
+      "repeat": {
+        "freq": "WEEKLY",
+        "byday": [
+          "MO",
+          "TU",
+          "WE",
+          "TH"
+        ],
+        "until": "2026-11-08"
+      }
+    },
+    {
+      "title": "🚌 Commute home",
+      "start": "2026-11-06T18:30",
+      "end": "2026-11-06T19:15"
+    },
+    {
+      "title": "🎓 Statistics assignment (block 1)",
+      "start": "2026-11-02T20:15",
+      "end": "2026-11-02T21:45",
+      "description": "Data cleaning and exploratory analysis. Assignment due Fri Nov 6, 23:59."
+    },
+    {
+      "title": "🎓 Online class: Machine Learning",
+      "start": "2026-11-03T19:30",
+      "end": "2026-11-03T21:30",
+      "alarm_min": 10
+    },
+    {
+      "title": "🎓 FINISH statistics assignment (block 2)",
+      "start": "2026-11-04T19:30",
+      "end": "2026-11-04T21:30",
+      "description": "Final model, write-up and submission. Two days of margin before the deadline.",
+      "alarm_min": 10
+    },
+    {
+      "title": "🎓 Online class: Research Methods",
+      "start": "2026-11-05T19:30",
+      "end": "2026-11-05T21:30",
+      "alarm_min": 10
+    },
+    {
+      "title": "🎓 Readings for next week",
+      "start": "2026-11-07T10:30",
+      "end": "2026-11-07T12:30",
+      "description": "Chapters 4-5 + notes."
+    },
+    {
+      "title": "🎓 Deep study: ML exercises",
+      "start": "2026-11-08T10:00",
+      "end": "2026-11-08T11:30"
+    },
+    {
+      "title": "🏦 Bank: renew debit card (option A)",
+      "start": "2026-11-06T17:45",
+      "end": "2026-11-06T18:30",
+      "description": "Bring ID. If you go on Saturday instead, this slot becomes free time.",
+      "location": "Bank branch near the office"
+    },
+    {
+      "title": "🏦 Bank: renew debit card (option B)",
+      "start": "2026-11-07T09:30",
+      "end": "2026-11-07T10:15",
+      "description": "Only if option A did not happen. If it is not needed, use it for the master's readings."
+    },
+    {
+      "title": "📋 Weekly review",
+      "start": "2026-11-08T18:00",
+      "end": "2026-11-08T18:30",
+      "description": "What got done, what moves, ask Claude to adjust the plan."
+    },
+    {
+      "title": "🗂️ Plan next week",
+      "start": "2026-11-08T18:30",
+      "end": "2026-11-08T19:00"
+    },
+    {
+      "title": "🔄 Flexible slot",
+      "start": "2026-11-02T21:45",
+      "end": "2026-11-02T22:15"
+    },
+    {
+      "title": "🔄 Flexible slot",
+      "start": "2026-11-03T21:30",
+      "end": "2026-11-03T22:00"
+    },
+    {
+      "title": "🔄 Flexible slot",
+      "start": "2026-11-04T21:30",
+      "end": "2026-11-04T22:15"
+    },
+    {
+      "title": "🔄 Flexible slot",
+      "start": "2026-11-05T21:30",
+      "end": "2026-11-05T22:00"
+    },
+    {
+      "title": "🔄 Flexible slot",
+      "start": "2026-11-07T15:00",
+      "end": "2026-11-07T16:00"
+    },
+    {
+      "title": "🔄 Flexible slot",
+      "start": "2026-11-08T11:30",
+      "end": "2026-11-08T12:15"
+    }
+  ]
+}

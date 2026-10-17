@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//calendar-planner//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:🏦 Errands
+X-WR-TIMEZONE:America/Bogota
+X-APPLE-CALENDAR-COLOR:#F4511E
+BEGIN:VTIMEZONE
+TZID:America/Bogota
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0500
+TZNAME:-05
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:6eedd9168e39621ac47f@calendar-planner
+DTSTAMP:20261017T001928Z
+DTSTART;TZID=America/Bogota:20261106T174500
+DTEND;TZID=America/Bogota:20261106T183000
+SUMMARY:🏦 Bank: renew debit card (option A)
+DESCRIPTION:Bring ID. If you go on Saturday instead\, this slot becomes fre
+ e time.
+LOCATION:Bank branch near the office
+END:VEVENT
+BEGIN:VEVENT
+UID:d2cc0862657e392b8f7b@calendar-planner
+DTSTAMP:20261017T001928Z
+DTSTART;TZID=America/Bogota:20261107T093000
+DTEND;TZID=America/Bogota:20261107T101500
+SUMMARY:🏦 Bank: renew debit card (option B)
+DESCRIPTION:Only if option A did not happen. If it is not needed\, use it f
+ or the master's readings.
+END:VEVENT
+END:VCALENDAR
